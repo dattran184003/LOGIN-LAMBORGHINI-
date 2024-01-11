@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+#video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+.login {
+    display: flex;
+    width: 50%;
+    padding:30px;
+    margin: auto;
+    margin-top:90px ;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.6);
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    background-color:rgba(255,255,255,0.3 );
+}
+.login .left{
+    text-align: center;
+    align-items: center;
+    width:50%;
+}
+.login .right{
+    width:50%;
+    text-align: center;
+    align-items: center;
+}
+.register{
+    display: flex;
+    width: 50%;
+    padding:30px;
+    margin: auto;
+    margin-top:90px ;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.6);
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    background-color:rgba(255,255,255,0.3 );
+}
+.register .left{
+    text-align: center;
+    align-items: center;
+    width:50%;
+    float:left;
+}
+.register .right{
+    width:50%;
+    text-align: center;
+    align-items: center;
+    float: right;
+}
+.register{
+    display: none;
+}
+h1,h2,p{
+    color: #fff;
+}
+button{
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px ;
+}
+button:hover{
+    background-color: 	#ff8000; 
+    color: #fff;
+}
+input{
+    width: 90%;
+    margin:10px ;
+    height: 25px;
+    border-radius: 50px;
+    border: none;
+}
+i{
+   width:20px;
+   height:20px;
+   vertical-align: middle;
+}
+a{
+    font-size: 20px;
+    text-Decoration: none;
+    color: #fff;
+}
